@@ -1,0 +1,145 @@
+body{
+	background-color:snow;
+	animation: change 5s infinite;
+}
+@keyframes change{
+    0%{
+	 background-color:snow;
+	}
+	33%{
+	 background-color:Azure;
+	}
+	66%{
+	 background-color:Ivory;
+	}
+	100%{
+	 background-color:Linen;
+	}
+	
+}
+.one{
+	background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(one.jpg');
+	height:500px;
+	background-repeat: no-repeat;
+	width:80%;
+	text-align:center;
+	background-size: cover;
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	animation: slideshow 100s infinite;
+	
+	
+}
+@keyframes slideshow{
+    0%{
+	 background-image:linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),url('one.jpg');
+	}
+	50%{
+	 background-image:linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),url('six.jpg');
+	}
+	100%{
+	 background-image:linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),url('seven.jpg');
+	}
+	
+}
+h1{
+	font-size:36px;
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	font-weight:normal;
+
+}
+.profiletext{
+	text-align:center;
+	font-family:'Source Sans Pro',sans-serif;
+	color:rgb(51, 51, 51);
+	font-size:18px;
+	line-height:24px;
+	font-weight:bold;
+}
+
+.profiletext em {
+	font-weight:normal;
+	padding-bottom: 10px;
+    border-bottom-style: solid;
+	border-color:#e6e6e6;
+    border-bottom-width: 2px;
+    width: fit-content;
+}
+#instructor{
+	height:100px;
+	display: block;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 100%;
+	border:1px solid white;
+	margin-top:-50px;
+}
+.flexmain{
+	display:flex;
+}
+.vertical{
+	width:16.6%;
+	
+}
+.number{
+	color: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -45px;
+	font-size:36px;
+}
+
+.two{
+	
+	width:66.67%;
+	margin-top:2%;
+	
+	
+}
+.two p {
+	margin-top:20px;
+	margin-bottom:0px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color:rgb(51, 51, 51);
+	line-height: 32px;
+	font-size:18px;
+}
+
+h2,h3{
+	
+	font-family:  'Roboto Slab', serif;
+	font-size:36px;
+	font-weight:bold;
+	margin-top:0px;
+	margin-bottom:1px;
+}
+h2{
+	margin-top:60px;
+}
+h3{
+	margin-top:120px;
+}
+a{
+	color :#42b4d6;
+	text-decoration:none;
+}
+a:hover {
+  text-decoration:underline;
+}
+a:visited {
+	color:Cyan;
+}
+
+.labpic{
+	padding-top:20px;
+	width:100%;
+}
+#footer{
+	position:absolute;
+	bottom:auto;
+	
+}
+
